@@ -1,2 +1,2 @@
 # Sample-Webapp
-With Help of Tomcat 
+With the Help of Tomcat server
