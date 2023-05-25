@@ -1,40 +1,48 @@
-# sampleWebApp
+Sure, here is the README.md file for the sample web app:
 
-This is a sample web app that uses Git, Java, Tomcat server, and Ant build tool.
+
+# Sample Web App
+
+This is a sample web app that demonstrates how to use Git, Java, Jenkins, Tomcat server, and Ant build tool.
 
 ## Getting Started
 
-To get started, clone the repository
-
-Then, cd into the directory:
-
-And, run the following command to build the app:
+1. Clone the repository:
 
 
-This will create a war file in the `build/` directory.
+git clone https://github.com/[your-username]/sample-webapp.git
+```
 
-To deploy the app, copy the war file to the `webapps` directory of your Tomcat server.
+2. Install the dependencies:
 
-Then, start Tomcat server.
+```
+mvn install
+```
 
-The app should now be running at `http://localhost:8080/sampleWebApp`.
+3. Run the app:
 
-## Features
+```
+mvn jetty:run
 
-The app has the following features:
 
-* A home page that displays a list of products.
-* A product page that displays information about a single product.
-* A shopping cart that allows users to add products to their cart and checkout.
+The app will be available at `http://localhost:8080`.
 
-## To-Do
+## Dependencies
 
-The following features are still to be implemented:
+The app depends on the following libraries:
 
-* User registration and login.
-* Order tracking.
-* Payment processing.
+* Java 8
+* Jetty server
+* Ant build tool
 
-## Contact
+## Usage
 
-If you have any questions or feedback, please contact me at devopskid@engineer.com
+The app is a simple web app that displays a list of books. You can add, edit, and delete books from the list.
+
+## Contributing
+
+Please feel free to contribute to the app by submitting pull requests.
+
+## License
+
+The app is licensed under the Apache License, Version 2.0.
